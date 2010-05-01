@@ -25,7 +25,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <title>HTML5演示模板</title>
-    
+		      <script src="js/mootools.js">  </script>
+
 <link type="text/css" href="main.css" rel="stylesheet">
 
   </head><body>
@@ -37,7 +38,7 @@
             <p>按<span class="key">&rarr;</span>键 进入下一页</p>
             <p style="font-size: 25px">请使用<a href="http://www.google.com/chrome/">Google Chrome</a>浏览。在演示中遇到问题？阅读 <a href="disclaimer.html">免责声明</a>
 <a href="http://code.google.com/p/html5-slide-template/downloads/list">下载地址</a></p>
-   
+   <p class="notes">此乃首页</p>
    </section>
         </div>
                 
@@ -85,13 +86,13 @@
 
         <div class="slide">
           <header><h1>视频和音乐</h1></header>
-          <section style="text-align: center">
+       <section style="text-align: center;">
  
-              <video  src="http://html5-slide-template.googlecode.com/svn/trunk/media/Nationals_Government_went_back_to_Nanjing.ogg" controls>
-                Your browser does not support the video tag
+              <video  src="media/Nationals_Government_went_back_to_Nanjing.ogg" controls="controls">
+<source src="assets/dizzy.mp4" />
               </video>
             
-              <audio    src="http://html5-slide-template.googlecode.com/svn/trunk/media/jiang.ogg" controls>
+              <audio  src="media/jiang.ogg" controls="controls">
                 Your browser dows not support the audio tag
               </audio>
           </section>
@@ -320,7 +321,6 @@ background:
 
         <div class="slide">
           <header><h1>JS类库使用</h1></header>
-	      <script src="js/mootools.js">  </script>
 
  <script>
     window.addEvent('domready', function() {
@@ -373,8 +373,7 @@ background:
 	});
 	});
     </script>
-	      <style>
-        
+	      <style>   
               #marginbottom {
                 font-size: 20px;
               }
@@ -438,9 +437,8 @@ background:
        
     </div> <!-- presentation -->
     
-    <script src="js/slider.js">
-    
-    </script>
+        <script src="js/slider.js">    </script>
+
 <!-- trace -->
     
   <script type="text/javascript">
